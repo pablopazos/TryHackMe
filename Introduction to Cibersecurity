@@ -10,3 +10,6 @@ site:: Limits the search to a specific domain or website (e.g., site:inditex.com
 filetype: : Filters results to find specific file formats, such as PDF, DOC, XLS, or PPT. This is highly effective for finding exposed internal documents.
 
 Shodan: a Google of internet devices. You can find almost everything with an IP and an open port.
+Censys: A search engine focused on Digital Certificates (SSL/TLS). It helps validate asset ownership and uncovers hidden subdomains or origin IPs.
+VirusTotal: A global Threat Intelligence aggregator. It checks if an IP or domain has a malicious reputation or is part of a known botnet.
+Have I Been Pwned (HIBP): The definitive database for Data Breaches. It tracks leaked corporate credentials to assess the risk of "Credential Stuffing" attacks.
