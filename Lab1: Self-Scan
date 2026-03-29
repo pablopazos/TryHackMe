@@ -7,4 +7,8 @@ In conclusion, there is no visible information leaked from my ISP or indexed dat
 In second place, I tried some filters, like city: "A Coruña" country: "ES" and I find a lot to see:
 -I identified specific software versions, such as PowerDNS 4.9.5. Knowing the exact version is the first step for a Vulnerability Assessment.
 -IoT Exposure: Found RTSP banners, which likely belong to IP cameras or surveillance systems.
--Infrastructure Management: Detected SNMP protocols active on corporate networks (El Corte Inglés), providing hardware details like Engine Boots and Up-time, the last with like 1000 days without a reboot, what could be a danger.
+-Infrastructure Management: Detected SNMP protocols active on corporate networks (El Corte Inglés), providing hardware details like Engine Boots and Up-time, the last with like 1000 days without a reboot,
+what could be a danger.
+
+To finalize, I saw a Hikvision IP camera, from Telefonica, exposing its web management interface on port 81 and its real-time streaming protocol on port 554, so the risk was that
+we could direct access to the management login portal.
