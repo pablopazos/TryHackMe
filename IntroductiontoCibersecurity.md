@@ -1,17 +1,28 @@
-Usage of dirb: this command is used to discover hidden paths that could exist in a website, and we can know if they are protected or vulnerable.
-Usage of ss: this command is used to monitor the different ports in our machine. It has several options like -t for TCP or -u for UDP.
+# Introduction to Cyber Security: Cyber Security 101
+
+### Some important command lines in linux 
+
+**`Usage of dirb`**: this command is used to discover hidden paths that could exist in a website, and we can know if they are protected 
+or vulnerable.
+
+**`Usage of ss`**: this command is used to monitor the different ports in our machine. It has several options like -t for TCP or -u for UDP.
 Snake oil: This term is used when a business claims to have 'unbreakable' security by using custom or unproven encryption methods instead of industry standards like RSA or AES.
 
-Quick Summary: Google Advanced Search Operators
+### Quick Summary: Google Advanced Search Operators
 Search engines like Google allow the use of specific operators to perform Passive Reconnaissance (gathering information without interacting directly with the target).
 "exact phrase": Use double quotes to find pages that contain a specific word or phrase in the exact same order.
 site:: Limits the search to a specific domain or website (e.g., site:inditex.com).
 -: Used to exclude specific words from the search results.
 filetype: : Filters results to find specific file formats, such as PDF, DOC, XLS, or PPT. This is highly effective for finding exposed internal documents.
 
-Shodan: a Google of internet devices. You can find almost everything with an IP and an open port.
-Censys: A search engine focused on Digital Certificates (SSL/TLS). It helps validate asset ownership and uncovers hidden subdomains or origin IPs.
-VirusTotal: A global Threat Intelligence aggregator. It checks if an IP or domain has a malicious reputation or is part of a known botnet.
-Have I Been Pwned (HIBP): The definitive database for Data Breaches. It tracks leaked corporate credentials to assess the risk of "Credential Stuffing" attacks.
+### Cyber Security important sites: 
 
-CVE: Common Vulnerabilities and Exposures= dictionary of vulnerabilities.
+- **`Shodan`**: a Google of internet devices. You can find almost everything with an IP and an open port.
+
+- **`Censys`**: A search engine focused on Digital Certificates (SSL/TLS). It helps validate asset ownership and uncovers hidden subdomains or origin IPs.
+
+- **`VirusTotal`**: A global Threat Intelligence aggregator. It checks if an IP or domain has a malicious reputation or is part of a known botnet.
+
+- **`Have I Been Pwned`** (HIBP): The definitive database for Data Breaches. It tracks leaked corporate credentials to assess the risk of "Credential Stuffing" attacks.
+
+- **`CVE`**: Common Vulnerabilities and Exposures= dictionary of vulnerabilities.
