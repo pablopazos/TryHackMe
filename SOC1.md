@@ -16,3 +16,12 @@ In this section, I learned that a SOC analyst must handle threats using a struct
 * **Order of Severity:** This is the most critical factor. Alerts are categorized by severity levels (**Critical, High, Medium, Low**). Critical and High-priority alerts must be addressed first because they represent a higher probability of being a **True Positive** (a real attack) and pose a greater risk of data exposure or system compromise.
 * **Timeline (FIFO):** While severity is the priority, analysts also consider the age of the alert. Generally, older threats should be addressed before newer ones within the same severity level to ensure no window of opportunity is left open for the attacker.
 * **Goal:** By prioritizing based on severity, we minimize the impact of a potential hack and ensure that the most dangerous threats are contained as quickly as possible.
+
+  ### Incident Response Lifecycle: SIEM Triage Process
+
+The triage process is divided into three critical phases to ensure a professional and accurate investigation (from THM screen):
+
+1. **Initial Actions (Ownership):** Assign the alert to yourself and move it to "In Progress". Familiarize yourself with the alert name, description, and key indicators to avoid interfering with other analysts.
+2. **Investigation (Analysis):** The core step. Identify the "Who" (user/host) and the "What" (action/threat). Review surrounding events for context and use Threat Intelligence to verify if the activity is malicious. Use Playbooks/Workbooks if available.
+3. **Final Actions (Verdict):** Decide if the alert is a **True Positive** (malicious) or **False Positive** (benign). Add a detailed comment explaining your reasoning and move the alert to "Closed" status.
+
