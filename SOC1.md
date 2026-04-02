@@ -25,3 +25,13 @@ The triage process is divided into three critical phases to ensure a professiona
 2. **Investigation (Analysis):** The core step. Identify the "Who" (user/host) and the "What" (action/threat). Review surrounding events for context and use Threat Intelligence to verify if the activity is malicious. Use Playbooks/Workbooks if available.
 3. **Final Actions (Verdict):** Decide if the alert is a **True Positive** (malicious) or **False Positive** (benign). Add a detailed comment explaining your reasoning and move the alert to "Closed" status.
 
+###  Alert Management & Escalation
+
+Once the investigation is complete, a SOC Analyst must follow a structured reporting and communication process:
+
+* **Alert Reporting:** For every **True Positive**, a detailed report is required. Unlike a simple comment, this documentation must include all relevant evidence (logs, timestamps, IOCs). This ensures that the context is preserved for further action.
+* **Alert Escalation:** If a threat is confirmed (True Positive) and requires deeper investigation or advanced response, it is escalated to **L2 Analysts**. A high-quality L1 report is critical here to minimize analysis time and allow L2 to act quickly.
+* **Cross-Departmental Communication:** Analysis often requires external context.
+    * **IT Team:** To verify if specific technical actions (like granting admin privileges) were authorized.
+    * **HR Department:** To confirm employee status or background information (e.g., verifying a new hire's activity).
+
