@@ -34,4 +34,20 @@ Once the investigation is complete, a SOC Analyst must follow a structured repor
 * **Cross-Departmental Communication:** Analysis often requires external context.
     * **IT Team:** To verify if specific technical actions (like granting admin privileges) were authorized.
     * **HR Department:** To confirm employee status or background information (e.g., verifying a new hire's activity).
+ 
+
+###  Criteria for Alert Escalation (L1 to L2)
+
+Deciding when to escalate an alert is a key responsibility of the L1 Analyst. While procedures vary by team, these are the four standard scenarios for escalation:
+
+1. **High-Impact Indicators:** When the alert suggests a major cyberattack or a sophisticated threat that requires a deeper, specialized investigation.
+2. **Remediation Requirements:** If the incident requires active response actions that exceed L1 permissions, such as:
+    * Malware removal.
+    * Host isolation (quarantine).
+    * Mandatory password resets across the domain.
+3. **External Communication:** When the situation requires coordination with:
+    * Customers or business partners.
+    * Upper management or legal teams.
+    * Law enforcement agencies.
+4. **Technical Complexity:** If the alert is not fully understood or the analysis reaches a dead end, seeking guidance from senior (L2/L3) analysts is necessary to ensure no threat is overlooked.
 
