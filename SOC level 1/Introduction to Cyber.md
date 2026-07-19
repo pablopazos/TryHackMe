@@ -27,3 +27,23 @@ filetype: : Filters results to find specific file formats, such as PDF, DOC, XLS
 
 - **`CVE`**: Common Vulnerabilities and Exposures= dictionary of vulnerabilities.
 
+### Important vulnerabilies:
+- The humans are the easiest way to get into a defensive system by exploiting human psichology
+- Defending against threats involves two tasks, mitigation and detection, but one day, the defenses will get passed, so the labor of a SOC is having the skills to solve this.
+
+### System Security & Vulnerabilities
+
+* **The "Castle" Analogy:** Having a well-trained user (gatekeeper) who can spot phishing or deepfakes is not enough if the underlying system infrastructure (the lock) is fragile and weak. 
+* **Direct Infrastructure Attacks:** Threat actors can bypass users entirely and attack insecure systems directly without anyone noticing.
+* **Definition of System:** Systems include physical servers, lab machines, or cloud platforms (e.g., Microsoft 365). 
+* **Impact of a System Breach:** Compromising a single user's mailbox (via phishing) only impacts that individual, but breaching a mail server grants the attacker control over thousands of mailboxes simultaneously.
+* **Definition of Supply Chain in Cyber:** It includes any external software, hardware, or service provider your organization relies on, so an attack on the provider will affect you directly.
+
+### Security Misconfigurations
+
+* **Definition:** Human errors made during system setup for convenience (e.g., weak passwords, disabled firewalls), rather than actual software bugs.
+* **The Breach Process:** A secure system receives sensitive data, IT introduces flaws (weak credentials/open ports), threat actors easily exploit it and steal data.
+* **Proactive Defenses:**
+  * **Penetration Testing:** Simulating attacks to find flaws.
+  * **Vulnerability Scans:** Automated tools checking for default settings.
+  * **Configuration Audits:** Reviewing settings against standards (like CIS benchmarks).
