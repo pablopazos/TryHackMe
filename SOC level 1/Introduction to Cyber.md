@@ -26,3 +26,4 @@ filetype: : Filters results to find specific file formats, such as PDF, DOC, XLS
 - **`Have I Been Pwned`** (HIBP): The definitive database for Data Breaches. It tracks leaked corporate credentials to assess the risk of "Credential Stuffing" attacks.
 
 - **`CVE`**: Common Vulnerabilities and Exposures= dictionary of vulnerabilities.
+
