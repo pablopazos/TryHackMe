@@ -51,3 +51,21 @@ Deciding when to escalate an alert is a key responsibility of the L1 Analyst. Wh
     * Law enforcement agencies.
 4. **Technical Complexity:** If the alert is not fully understood or the analysis reaches a dead end, seeking guidance from senior (L2/L3) analysts is necessary to ensure no threat is overlooked.
 
+
+### SOC Workbooks (Playbooks)
+
+A **SOC workbook** (also referred to as a playbook, runbook, or workflow) is a structured document that defines the steps required to investigate and remediate specific threats efficiently and consistently. Since L1 analysts are considered junior specialists, senior analysts prepare workbooks to avoid mistakes and streamline triage across the team.
+
+Investigation workbooks follow three main stages:
+
+* **Enrichment Stage:**
+    * **Identity Context:** Use systems like BambooHR to find out expected user location, role, and details.
+    * **Threat Intelligence:** Lookup login IPs in Threat Intelligence and anonymisation detection services.
+* **Investigation Stage:**
+    * **Log Analysis:** Use SIEM tools like Splunk to list user actions following the login (e.g., checking for suspicious activity like MFA resets).
+    * **Behavioral Baseline:** Review historical dashboards (e.g., 90-day login timelines) to check if VPN logins, locations, or times are atypical for the user.
+* **Escalation & Closure Decision:**
+    * **False Positive:** Close the alert if login locations, VPN usage, and times are expected and non-malicious.
+    * **User Verification:** Contact the user to confirm atypical access before taking further action.
+    * **Escalation:** Escalate to L2 if malicious indicators are confirmed or post-login actions are suspicious.
+
