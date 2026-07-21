@@ -68,4 +68,9 @@ Investigation workbooks follow three main stages:
     * **False Positive:** Close the alert if login locations, VPN usage, and times are expected and non-malicious.
     * **User Verification:** Contact the user to confirm atypical access before taking further action.
     * **Escalation:** Escalate to L2 if malicious indicators are confirmed or post-login actions are suspicious.
+ 
+
+
+<img width="1288" height="464" alt="image" src="https://github.com/user-attachments/assets/b7053078-daad-41bd-bb7a-be45f4536440" />
+
 
