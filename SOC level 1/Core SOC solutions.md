@@ -55,3 +55,24 @@ A **SIEM** enhances security operations by centralizing, standardizing, and anal
   * Failed Login Attempts
   * Ingested Event Counts
 
+### Log Sources: Windows vs. Linux
+
+Both Windows and Linux generate logs for system activities, errors, and security events, which are forwarded to a SIEM for central monitoring.
+
+---
+
+#### 1. Windows Logs
+* **Tool:** **Event Viewer** (accessible by searching "Event Viewer" in Windows).
+* **Mechanism:** Windows assigns a **unique Event ID** to every specific log activity (e.g., login events, system errors).
+* **Integration:** Logs from Windows endpoints are forwarded to the SIEM solution for real-time tracking and visibility.
+
+---
+
+#### 2. Linux Logs
+Linux stores event, error, and system logs in specific directories, primarily under `/var/log/`. Common log locations include:
+
+* **`/var/log/httpd`**: Contains web server HTTP request, response, and error logs.
+* **`/var/log/cron`**: Stores events and execution logs related to scheduled tasks (cron jobs).
+* **`/var/log/auth.log` & `/var/log/secure`**: Stores user authentication and login attempt logs.
+* **`/var/log/kern`**: Stores kernel-related messages and system hardware events.
+
